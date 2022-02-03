@@ -1,4 +1,8 @@
 Hot Dice
+
+My Grandmother always had dice, cards, board games and puzzles to play when you were at her house. She taught every Aunt, Uncle and Cousin on my Dad's side of the family how to play Hot Dice and Canasta as well as many other games. Hot Dice was easy to play no matter how many people wanted to join in. This was one game that Grandma used to teach us how to be good sports and to have fun with family.
+
+
 6 Dice are roled
     Single Dice
         1 = 100
@@ -30,5 +34,11 @@ Add ability to drag kept dice to a holding section
 Add table to keep track of score
 
 Add win/loss tracking to player profile
+
+
+Coding Resources Used
+Intro to Web Development Dice Roller Game 
+HTML and Web Accessibility H-Tai-ML and Sign-up Form 
+
 
 

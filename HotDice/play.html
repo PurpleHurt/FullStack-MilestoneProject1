@@ -27,27 +27,59 @@
 
         <!--Add six dice for rolling -->
         <div class="dice" id="di1">
-            <img id="dice-image" src="assets/RedDice1.png" alt="dice image">
+            <img id="dice-image" src="assets/RedDice.png" alt="dice image"><br>
+            <input type="checkbox" value="Hold">Hold
         </div>
         <div class="dice" id="di2">
-            <img id="dice-image" src="assets/RedDice2.png" alt="dice image">
+            <img id="dice-image" src="assets/RedDice.png" alt="dice image"><br>
+            <input type="checkbox" value="Hold">Hold
         </div>
         <div class="dice" id="di3">
-            <img id="dice-image" src="assets/RedDice3.png" alt="dice image">
+            <img id="dice-image" src="assets/RedDice.png" alt="dice image"><br>
+            <input type="checkbox" value="Hold">Hold
         </div>
         <div class="dice" id="di4">
-            <img id="dice-image" src="assets/RedDice4.png" alt="dice image">
+            <img id="dice-image" src="assets/RedDice.png" alt="dice image"><br>
+            <input type="checkbox" value="Hold">Hold
         </div>
         <div class="dice" id="di5">
-            <img id="dice-image" src="assets/RedDice5.png" alt="dice image">
+            <img id="dice-image" src="assets/RedDice.png" alt="dice image"><br>
+            <input type="checkbox" value="Hold">Hold
         </div>
         <div class="dice" id="di6">
-            <img id="dice-image" src="assets/RedDice6.png" alt="dice image">
+            <img id="dice-image" src="assets/RedDice.png" alt="dice image"><br>
+            <input type="checkbox" value="Hold">Hold
         </div>
 
         <!--Create table for keeping score
     Will need to append a row for each roll of the dice-->
     </main>
+    <table>
+        <thead>
+            <tr>
+                <th>Turn</th>
+                <th>
+                    <!--Insert player Name-->
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <!--Insert Turn #-->
+                </td>
+                <td id="roll total">0</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Total</td>
+                <td id="total">0</td>
+            </tr>
+        </tfoot>
+    </table>
+    <button id="clear">Clear Scoreboard</button>
+    <script src="hotdice.js"></script>
 </body>
 
 </html>
