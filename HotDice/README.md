@@ -39,6 +39,6 @@ Add win/loss tracking to player profile
 Coding Resources Used
 Intro to Web Development Dice Roller Game 
 HTML and Web Accessibility H-Tai-ML and Sign-up Form 
-
+https://www.youtube.com/watch?v=6CMfZkLntX8 (resource used for rolling multiple dice function)
 
 

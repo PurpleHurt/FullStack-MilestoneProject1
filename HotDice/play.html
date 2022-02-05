@@ -21,35 +21,24 @@
             </ul>
         </nav>
         <h1>Let's Play Some Hot Dice!</h1>
-        <div class="control">
-            <button id="roll">Bring the Heat!</button>
-        </div>
+
+
+
 
         <!--Add six dice for rolling -->
-        <div class="dice" id="di1">
-            <img id="dice-image" src="assets/RedDice.png" alt="dice image"><br>
-            <input type="checkbox" value="Hold">Hold
+        <div class="container">
+            <div class="dice">
+                <img id="di1" src="assets/RedDice.png" alt="dice image"><br>
+                <img id="di2" src="assets/RedDice.png" alt="dice image"><br>
+                <img id="di3" src="assets/RedDice.png" alt="dice image"><br>
+                <img id="di4" src="assets/RedDice.png" alt="dice image"><br>
+                <img id="di5" src="assets/RedDice.png" alt="dice image"><br>
+                <img id="di6" src="assets/RedDice.png" alt="dice image"><br>
+            </div>
+            <button onclick="roll()">Roll Dice</button>
         </div>
-        <div class="dice" id="di2">
-            <img id="dice-image" src="assets/RedDice.png" alt="dice image"><br>
-            <input type="checkbox" value="Hold">Hold
-        </div>
-        <div class="dice" id="di3">
-            <img id="dice-image" src="assets/RedDice.png" alt="dice image"><br>
-            <input type="checkbox" value="Hold">Hold
-        </div>
-        <div class="dice" id="di4">
-            <img id="dice-image" src="assets/RedDice.png" alt="dice image"><br>
-            <input type="checkbox" value="Hold">Hold
-        </div>
-        <div class="dice" id="di5">
-            <img id="dice-image" src="assets/RedDice.png" alt="dice image"><br>
-            <input type="checkbox" value="Hold">Hold
-        </div>
-        <div class="dice" id="di6">
-            <img id="dice-image" src="assets/RedDice.png" alt="dice image"><br>
-            <input type="checkbox" value="Hold">Hold
-        </div>
+        <script src="hotdicefunction.js"></script>
+
 
         <!--Create table for keeping score
     Will need to append a row for each roll of the dice-->
@@ -79,7 +68,7 @@
         </tfoot>
     </table>
     <button id="clear">Clear Scoreboard</button>
-    <script src="hotdice.js"></script>
+
 </body>
 
 </html>
