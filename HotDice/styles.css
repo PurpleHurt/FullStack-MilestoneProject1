@@ -1,0 +1,34 @@
+nav ul {
+    display: inline-block;
+}
+
+.container {
+    width: 75%;
+    padding: 50px;
+    top: 30%;
+    left: 30%;
+    background-color: aqua;
+    /*Temporary color*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dice {
+    width: 95%;
+    display: flex;
+    justify-content: space-around;
+}
+
+div>img {
+    width: 10%;
+    border-radius: 10%;
+}
+
+table {
+    font-family: Copperplate, Papyrus, fantasy;
+}
+
+aside {
+    background-image: "images/tablBG.jpg";
+}

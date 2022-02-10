@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>Hot Dice Home</title>
-    <link rel="stylesheet" href="assets/styles.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
@@ -24,14 +24,14 @@
     <!--Add Introduction-->
 
     <!--Get player name-->
-    <div>
-        <form method="GET">
-            <div>
-                <label form="playername">Player Name</label><br>
-                <input type="text" id="playername"><br>
-                <input type="submit" value="Add player">
-            </div>
-        </form>
+    <main>
+        <input type="text" id="getPlayerName"></input><br>
+        <input type="button" onclick="addPlayer();" value="Add Player"></input>
+    </main>
+    <script src="js/players.js"></script>
+    <ol id="playerList">Players
+
+    </ol>
     </div>
     <!--Add option for 5,000 or 10,000 point game-->
 </body>

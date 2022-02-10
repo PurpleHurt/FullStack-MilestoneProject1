@@ -1,10 +1,10 @@
 let img = [
-    "assets/RedDice1.png",
-    "assets/RedDice2.png",
-    "assets/RedDice3.png",
-    "assets/RedDice4.png",
-    "assets/RedDice5.png",
-    "assets/RedDice6.png"
+    "images/RedDice1.png",
+    "images/RedDice2.png",
+    "images/RedDice3.png",
+    "images/RedDice4.png",
+    "images/RedDice5.png",
+    "images/RedDice6.png"
 ];
 let dice = document.querySelectorAll("img");
 
@@ -19,6 +19,7 @@ function roll() {
 
     console.log(diOne, diTwo, diThree, diFour, diFive, diSix)
 
+
     document.querySelector("#di1").setAttribute("src", img[diOne - 1]);
     document.querySelector("#di2").setAttribute("src", img[diTwo - 1]);
     document.querySelector("#di3").setAttribute("src", img[diThree - 1]);
@@ -27,3 +28,9 @@ function roll() {
     document.querySelector("#di6").setAttribute("src", img[diSix - 1]);
 
 }
+
+
+
+
+
+//Add scoring let currentRoll = roll[]

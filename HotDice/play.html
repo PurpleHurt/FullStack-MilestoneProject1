@@ -5,69 +5,69 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>Hot Dice Home</title>
-    <link rel="stylesheet" href="assets/styles.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <main>
-        <nav>
-            <ul>
-                <li>
-                    <a href="home.html">Home</a>
-                </li>
-                <li>
-                    <a href="rules.html">Rules</a>
-                </li>
-            </ul>
-        </nav>
+
+    <nav>
+        <ul>
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="rules.html">Rules</a>
+            </li>
+        </ul>
+    </nav>
+    <header>
         <h1>Let's Play Some Hot Dice!</h1>
+    </header>
 
-
-
+    <main>
 
         <!--Add six dice for rolling -->
         <div class="container">
             <div class="dice">
-                <img id="di1" src="assets/RedDice.png" alt="dice image"><br>
-                <img id="di2" src="assets/RedDice.png" alt="dice image"><br>
-                <img id="di3" src="assets/RedDice.png" alt="dice image"><br>
-                <img id="di4" src="assets/RedDice.png" alt="dice image"><br>
-                <img id="di5" src="assets/RedDice.png" alt="dice image"><br>
-                <img id="di6" src="assets/RedDice.png" alt="dice image"><br>
+                <img id="di1" src="images/RedDice.png" alt="dice image"><br>
+                <img id="di2" src="images/RedDice.png" alt="dice image"><br>
+                <img id="di3" src="images/RedDice.png" alt="dice image"><br>
+                <img id="di4" src="images/RedDice.png" alt="dice image"><br>
+                <img id="di5" src="images/RedDice.png" alt="dice image"><br>
+                <img id="di6" src="images/RedDice.png" alt="dice image"><br>
             </div>
             <button onclick="roll()">Roll Dice</button>
+            <button onclick="keepScore()">Keep Score and Pass Turn</button>
         </div>
-        <script src="hotdicefunction.js"></script>
-
+        <script src="js/rollDiceFunction.js"></script>
+        <script src="js/play.js"></script>
 
         <!--Create table for keeping score
     Will need to append a row for each roll of the dice-->
     </main>
-    <table>
-        <thead>
-            <tr>
-                <th>Turn</th>
-                <th>
-                    <!--Insert player Name-->
-                </th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>
-                    <!--Insert Turn #-->
-                </td>
-                <td id="roll total">0</td>
-            </tr>
-        </tbody>
-        <tfoot>
-            <tr>
-                <td>Total</td>
-                <td id="total">0</td>
-            </tr>
-        </tfoot>
-    </table>
-    <button id="clear">Clear Scoreboard</button>
+    <!--<script src="js/keepDice.js"></script>-->
+    <aside>
+        <table>
+            <thead>
+                <tr id="playerList">
+                    <th>Turn:</th>
+
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td id="roll total">0</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>Total:</td>
+                    <td id="total">0</td>
+                </tr>
+            </tfoot>
+        </table>
+        <button id="clear">Clear Scoreboard</button>
+    </aside>
 
 </body>
 
