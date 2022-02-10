@@ -1,10 +1,10 @@
 let img = [
-    "images/RedDice1.png",
-    "images/RedDice2.png",
-    "images/RedDice3.png",
-    "images/RedDice4.png",
-    "images/RedDice5.png",
-    "images/RedDice6.png"
+    "HotDice/images/RedDice1.png",
+    "HotDice/images/RedDice2.png",
+    "HotDice/images/RedDice3.png",
+    "HotDice/images/RedDice4.png",
+    "HotDice/images/RedDice5.png",
+    "HotDice/images/RedDice6.png"
 ];
 let dice = document.querySelectorAll("img");
 
